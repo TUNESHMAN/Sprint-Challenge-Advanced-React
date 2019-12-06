@@ -1,12 +1,11 @@
-import React from 'react';
-
-import './App.css';
-import PlayersList from './Components/PlayersList';
+import React from "react";
+import "./App.css";
+import DataComponent from "./Components/PlayerList";
 
 function App() {
   return (
     <div className="App">
-      <PlayersList/>
+      <DataComponent />
     </div>
   );
 }
